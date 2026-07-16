@@ -10,16 +10,16 @@ let nextSongTitle = document.getElementById("nextSongTitle");
 
 
 let songs = [
-    {title: "I Wanna Be Yours", src:"Songs/Arctic Monkeys - I Wanna Be Yours.mp3"},
-    {title: "Die With a Smile", src:"Songs/Die With a Smile (JLAY EDITED).mp3"},
-    {title: "Sailor Song", src:"Songs/gigi_perez_sailor_song_official_audio_mp3_60766.mp3"},
-    {title: "Kamin", src:"Songs/Kamin.mp3"},
-    {title: "Somewhere Only We Know", src:"Songs/Keane - Somewhere Only We Know (Official Music Video).mp3"},
-    {title: "Night Changes", src:"Songs/One Direction - Night Changes.mp3"},
-    {title: "Back To Friends", src:"Songs/sombr - back to friends.mp3"},
-    {title: "Say Yes To Heaven", src:"Songs/spotidownloader.com - Say Yes To Heaven - Lana Del Rey.mp3"},
-    {title: " Until I Found You", src:"Songs/Stephen Sanchez - Until I Found You (Official Video).mp3"},
-    {title: "One Of The Girls", src:"Songs/The Weeknd - One Of The Girls.mp3"}
+    {title: "I Wanna Be Yours", src:"./Arctic Monkeys - I Wanna Be Yours.mp3"},
+    {title: "Die With a Smile", src:"./Die With a Smile (JLAY EDITED).mp3"},
+    {title: "Sailor Song", src:"./gigi_perez_sailor_song_official_audio_mp3_60766.mp3"},
+    {title: "Kamin", src:"./Kamin.mp3"},
+    {title: "Somewhere Only We Know", src:"./Keane - Somewhere Only We Know (Official Music Video).mp3"},
+    {title: "Night Changes", src:"./One Direction - Night Changes.mp3"},
+    {title: "Back To Friends", src:"./sombr - back to friends.mp3"},
+    {title: "Say Yes To Heaven", src:"./spotidownloader.com - Say Yes To Heaven - Lana Del Rey.mp3"},
+    {title: " Until I Found You", src:"./Stephen Sanchez - Until I Found You (Official Video).mp3"},
+    {title: "One Of The Girls", src:"./The Weeknd - One Of The Girls.mp3"}
 ];
 
 let player = new Audio();
