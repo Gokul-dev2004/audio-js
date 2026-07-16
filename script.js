@@ -37,7 +37,7 @@ function loadPlayer() {
 function playCurrentSong() {
     loadPlayer();
     player.play().then(() => {
-        toggleButton.src = "audio-assets/pause.png";
+        toggleButton.src = "./pause.png";
         musicIcon.style.animation = "icon 2s linear infinite";
     });
 }
@@ -45,12 +45,12 @@ function playCurrentSong() {
 function togglePlay() {
     if (player.paused) {
         player.play()
-        toggleButton.src = "audio-assets/pause.png";
+        toggleButton.src = "./pause.png";
         musicIcon.style.animation = "icon 2s linear infinite";
     }
     else {
         player.pause();
-        toggleButton.src = "audio-assets/play.png";
+        toggleButton.src = "./play.png";
         musicIcon.style.animation = "none";
     }
 }
